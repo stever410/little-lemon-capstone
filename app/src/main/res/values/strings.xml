@@ -6,4 +6,6 @@
     <string name="last_name">Last name</string>
     <string name="email">Email</string>
     <string name="register">Register</string>
+    <string name="failed_registration">Registration unsuccessful. Please enter all data.</string>
+    <string name="successful_registration">Registration successful!</string>
 </resources>
