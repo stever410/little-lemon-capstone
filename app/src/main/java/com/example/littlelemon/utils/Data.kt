@@ -20,3 +20,10 @@ fun saveUser(sharedPreferences: SharedPreferences, user: User) {
         apply()
     }
 }
+
+fun clearData(sharedPreferences: SharedPreferences) {
+    with(sharedPreferences.edit()) {
+        clear()
+        apply()
+    }
+}

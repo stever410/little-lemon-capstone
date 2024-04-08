@@ -8,4 +8,6 @@
     <string name="register">Register</string>
     <string name="failed_registration">Registration unsuccessful. Please enter all data.</string>
     <string name="successful_registration">Registration successful!</string>
+    <string name="logout">Log out</string>
+    <string name="profile_information">Profile information</string>
 </resources>

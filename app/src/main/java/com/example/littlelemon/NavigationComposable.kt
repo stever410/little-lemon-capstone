@@ -17,13 +17,13 @@ fun Navigation(navController: NavHostController) {
     val context = LocalContext.current
     NavHost(navController = navController, startDestination = getStartDestination(context)) {
         composable(HomeDest.route) {
-            Home()
+            Home(navController)
         }
         composable(OnboardingDest.route) {
             Onboarding(navController)
         }
         composable(ProfileDest.route) {
-            Profile()
+            Profile(navController)
         }
     }
 }
