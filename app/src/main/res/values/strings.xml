@@ -14,4 +14,5 @@
     <string name="city">Chicago</string>
     <string name="short_description">We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist</string>
     <string name="search_placeholder">Enter search phrase</string>
+    <string name="order_for_delivery">ORDER FOR DELIVERY!</string>
 </resources>

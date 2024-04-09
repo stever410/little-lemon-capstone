@@ -34,7 +34,6 @@ fun Menu(menuItem: MenuItem) {
     Row(
         horizontalArrangement = Arrangement.spacedBy(10.dp),
         verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier.padding(20.dp)
     ) {
         Column(
             verticalArrangement = Arrangement.spacedBy(10.dp),

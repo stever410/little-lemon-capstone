@@ -55,6 +55,11 @@ val Typography = Typography(
         fontFamily = karlaTextFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
+    ),
+    labelSmall = TextStyle(
+        fontFamily = karlaTextFamily,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 16.sp
     )
     /* Other default text styles to override
     titleLarge = TextStyle(
