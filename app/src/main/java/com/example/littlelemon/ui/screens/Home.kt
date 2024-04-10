@@ -180,7 +180,10 @@ fun Home(navController: NavController) {
                     items(categories.size) {
                         FilterChip(
                             selected = categorySelection.equals(categories[it], ignoreCase = true),
-                            onClick = { categorySelection = categories[it] },
+                            onClick = {
+                                categorySelection = if (categorySelection != categories[it])
+                                    categories[it] else ""
+                            },
                             label = {
                                 Text(categories[it], style = Typography.labelSmall)
                             },
@@ -216,7 +219,7 @@ fun filterMenuItems(
 ): List<MenuItem> {
     return menuItems?.filter {
         it.title.contains(searchPhrase, ignoreCase = true)
-                && it.category.equals(category, ignoreCase = true)
+                && (category.isEmpty() || it.category.equals(category, ignoreCase = true))
     } ?: emptyList()
 }
 
